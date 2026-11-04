@@ -1,0 +1,221 @@
+{
+    "point_entity_form": {
+        "schema": {
+            "type": "ROOT",
+            "name": "PointEntity",
+            "contentRowGap": "5px",
+            "items": [
+                {
+                    "name": "identity",
+                    "type": "SECTION",
+                    "containerRowGap": "0px",
+                    "contentRowGap": "0px",
+                    "items": [
+                        {
+                            "name": "name",
+                            "type": "TEXT",
+                            "path": [
+                                "name"
+                            ],
+                            "label": "Name:",
+                            "placeholder": "Enter entity name",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "40px 1fr",
+                            "containerAlignItems": "baseline",
+                            "containerRowGap": "0px",
+                            "contentRowGap": "0px"
+                        },
+                        {
+                            "name": "type",
+                            "type": "TEXT",
+                            "path": [
+                                "type"
+                            ],
+                            "disabled": true,
+                            "label": "omer:",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "40px 1fr",
+                            "containerAlignItems": "baseline",
+                            "containerRowGap": "0px",
+                            "contentRowGap": "0px"
+                        }
+                    ]
+                },
+                {
+                    "name": "coordinates",
+                    "type": "SECTION",
+                    "label": "Coordinates",
+                    "contentGridTemplateColumns": "1fr 1fr 1fr",
+                    "contentColumnGap": "15px",
+                    "contentRowGap": "0px",
+                    "items": [
+                        {
+                            "name": "latitude",
+                            "type": "TEXT",
+                            "path": [
+                                "coordinates",
+                                "lat"
+                            ],
+                            "label": "Latitude:",
+                            "placeholder": "Enter Latitude",
+                            "width": "100px",
+                            "containerGridTemplateColumns": "1fr 1fr",
+                            "containerAlignItems": "baseline"
+                        },
+                        {
+                            "name": "longitude",
+                            "type": "TEXT",
+                            "path": [
+                                "coordinates",
+                                "long"
+                            ],
+                            "label": "Longitude:",
+                            "placeholder": "Enter longitude",
+                            "width": "100px",
+                            "containerGridTemplateColumns": "1fr 1fr",
+                            "containerAlignItems": "baseline"
+                        }
+                    ]
+                },
+                {
+                    "name": "vector",
+                    "type": "SECTION",
+                    "label": "Vector",
+                    "contentGridTemplateColumns": "1fr 1fr 1fr",
+                    "contentColumnGap": "15px",
+                    "contentRowGap": "0px",
+                    "items": [
+                        {
+                            "name": "speed",
+                            "type": "TEXT",
+                            "path": [
+                                "vector",
+                                "speed"
+                            ],
+                            "label": "Speed:",
+                            "placeholder": "Speed",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "43px 1fr",
+                            "containerAlignItems": "baseline",
+                            "contentColumnGap": "0px"
+                        },
+                        {
+                            "name": "height",
+                            "type": "TEXT",
+                            "path": [
+                                "vector",
+                                "height"
+                            ],
+                            "label": "Height:",
+                            "placeholder": "Height",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "43px 1fr",
+                            "containerAlignItems": "baseline",
+                            "contentColumnGap": "0px"
+                        },
+                        {
+                            "name": "angle",
+                            "type": "TEXT",
+                            "path": [
+                                "vector",
+                                "angle"
+                            ],
+                            "label": "Angle:",
+                            "placeholder": "Angle",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "40px 1fr",
+                            "containerAlignItems": "baseline",
+                            "contentColumnGap": "0px"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "polygon_entity_form": {
+        "schema": {
+            "type": "ROOT",
+            "name": "PolygonEntity",
+            "contentRowGap": "5px",
+            "items": [
+                {
+                    "name": "identity",
+                    "type": "SECTION",
+                    "containerRowGap": "0px",
+                    "contentRowGap": "0px",
+                    "items": [
+                        {
+                            "name": "name",
+                            "type": "TEXT",
+                            "label": "Name:",
+                            "path": [
+                                "name"
+                            ],
+                            "placeholder": "Enter Entity Name",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "40px 1fr",
+                            "containerAlignItems": "baseline",
+                            "containerRowGap": "0px",
+                            "contentRowGap": "0px"
+                        },
+                        {
+                            "name": "type",
+                            "type": "TEXT",
+                            "label": "Type:",
+                            "path": [
+                                "type"
+                            ],
+                            "placeholder": "Enter Entity Type",
+                            "width": "100%",
+                            "containerGridTemplateColumns": "40px 1fr",
+                            "containerAlignItems": "baseline",
+                            "containerRowGap": "0px",
+                            "contentRowGap": "0px"
+                        }
+                    ]
+                },
+                {
+                    "name": "coordinates",
+                    "type": "SECTION",
+                    "label": "Coordinates",
+                    "contentGridTemplateColumns": "1fr 1fr 1fr",
+                    "contentColumnGap": "15px",
+                    "contentRowGap": "0px",
+                    "items": [
+                        {
+                            "name": "latitude",
+                            "type": "TEXT",
+                            "label": "Latitude:",
+                            "placeholder": "Enter Latitude",
+                            "path": ["center", "lat"],
+                            "width": "100px",
+                            "containerGridTemplateColumns": "1fr 1fr",
+                            "containerAlignItems": "baseline"
+                        },
+                        {
+                            "name": "longitude",
+                            "type": "TEXT",
+                            "label": "Longitude:",
+                            "path": ["center", "long"],
+                            "placeholder": "Enter Longitude",
+                            "width": "100px",
+                            "containerGridTemplateColumns": "1fr 1fr",
+                            "containerAlignItems": "baseline"
+                        }
+                    ]
+                },
+                {
+                    "name": "sqm",
+                    "type": "TEXT",
+                    "label": "Square Metre:",
+                    "placeholder": "Square Metre",
+                    "path": ["sqm"],
+                    "width": "100%",
+                    "containerGridTemplateColumns": "100px 1fr",
+                    "containerAlignItems": "baseline",
+                    "contentColumnGap": "0px"
+                }
+            ]
+        }
+    }
+}

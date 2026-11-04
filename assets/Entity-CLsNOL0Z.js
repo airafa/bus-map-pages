@@ -1,0 +1,1 @@
+var e=`Point`,t=`Polygon`,n=e=>e.feature.geometry.type===t,r=t=>t.feature.geometry.type===e;export{t as i,n,e as r,r as t};

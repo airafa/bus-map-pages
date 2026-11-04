@@ -1,0 +1,45 @@
+{
+  "language": "en",
+  "availableLanguages": [
+    "en",
+    "he"
+  ],
+  "layout": {
+    "uuid": "bus-dashboard",
+    "name": "layout",
+    "style": {
+      "display": "flex",
+      "flexDirection": "row",
+      "flex": 1
+    },
+    "droppable": false,
+    "layoutElementType": "LAYOUT",
+    "resizable": { "minPercent": 25, "maxPercent": 75 },
+    "items": [
+      {
+        "uuid": "schedule-pane",
+        "name": "schedule",
+        "style": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flex": "25 1 0%"
+        },
+        "droppable": true,
+        "onlyDropInside": true,
+        "layoutElementType": "LAYOUT"
+      },
+      {
+        "uuid": "route-map-pane",
+        "name": "route-map",
+        "style": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flex": "75 1 0%"
+        },
+        "droppable": true,
+        "onlyDropInside": true,
+        "layoutElementType": "LAYOUT"
+      }
+    ]
+  }
+}

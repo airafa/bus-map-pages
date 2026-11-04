@@ -1,0 +1,34 @@
+{
+    "projection": "EPSG:3857",
+    "zoom": 8.0,
+    "center": [
+        35,
+        31
+    ],
+    "rotation": 0,
+    "brightness": 100,
+    "contrast": 28,
+    "isGraticule": false,
+    "graticuleOptions": {
+        "strokeStyle": {
+            "color": "rgba(255,120,0,0.9)",
+            "width": 2,
+            "lineDash": [
+                0.5,
+                4
+            ]
+        },
+        "showLabels": true,
+        "wrapX": false
+    },
+    "mapMeasureOptions": {
+        "type": "",
+        "strokeColor": "#fff",
+        "fillColor": "#fff1"
+    },
+    "vectorTileLayers": [
+        "water",
+        "roads",
+        "buildings"
+    ]
+}

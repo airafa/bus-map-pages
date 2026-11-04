@@ -1,0 +1,94 @@
+{
+  "module-header": {
+    "module": "module-header",
+    "container": "header",
+    "init": true
+  },
+  "module-bus-schedule": {
+    "module": "module-bus-schedule",
+    "container": ["bus-dashboard", "schedule-pane"],
+    "init": true,
+    "editable": true
+  },
+  "module-route-map": {
+    "module": "module-route-map",
+    "container": ["bus-dashboard", "route-map-pane"],
+    "init": true,
+    "editable": true
+  },
+  "module-bus-context-menu": {
+    "module": "module-bus-context-menu",
+    "container": "bus-overlays",
+    "init": true
+  },
+  "module-bus-stops-dialog": {
+    "module": "module-bus-stops-dialog",
+    "container": "bus-overlays",
+    "init": true
+  },
+  "module-entity-dialog": {
+    "module": "module-entity-dialog",
+    "container": "dialogs",
+    "title": "dialog",
+    "formSchemas": {
+      "$ref": "schemas"
+    },
+    "width": 500,
+    "height": 400,
+    "top": 100,
+    "left": 100,
+    "allowDragging": true,
+    "allowMultipleInstance": true
+  },
+  "module-entity-list": {
+    "module": "module-entity-list",
+    "container": "main1",
+    "init": false,
+    "editable": true,
+    "style": {
+      "flex": 1
+    }
+  },
+  "module-map": {
+    "module": "module-map",
+    "container": "main2",
+    "init": false,
+    "editable": true,
+    "mapConfig": {
+      "$ref": "map"
+    },
+    "style": {
+      "flex": 1
+    }
+  },
+  "module-editable-module": {
+    "module": "module-editable-module",
+    "container": "",
+    "init": false
+  },
+  "module-element-properties": {
+    "module": "module-element-properties",
+    "container": "end-side-panel",
+    "init": true,
+    "showOnlyOnEdit": true
+  },
+  "module-add-modules": {
+    "module": "module-add-modules",
+    "container": "start-side-panel",
+    "init": true,
+    "showOnlyOnEdit": true,
+    "style": {
+      "flex": 1
+    }
+  },
+
+  "module-elements-tree": {
+    "module": "module-elements-tree",
+    "container": "start-side-panel",
+    "init": true,
+    "showOnlyOnEdit": true,
+    "style": {
+      "flex": 2
+    }
+  }
+}

@@ -1,0 +1,1 @@
+var e=e=>{let t=0,n=0;for(let r of e)t+=r[0],n+=r[1];return[t/e.length,n/e.length]};export{e as t};
