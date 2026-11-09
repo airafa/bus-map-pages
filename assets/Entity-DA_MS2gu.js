@@ -1,0 +1,1 @@
+import{n as e,t}from"./src-9rAELv0q.js";var n=t=>t.feature.geometry.type===e,r=e=>e.feature.geometry.type===t;export{n,r as t};

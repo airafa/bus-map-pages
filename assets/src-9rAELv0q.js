@@ -1,0 +1,1 @@
+var e=`Point`,t=`Polygon`;export{t as n,e as t};
