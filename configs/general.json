@@ -1,5 +1,6 @@
 {
   "language": "en",
+  "userPreferences": { "url": null },
   "availableLanguages": [
     "en",
     "he"
@@ -8,13 +9,15 @@
     "uuid": "bus-dashboard",
     "name": "layout",
     "style": {
-      "display": "flex",
-      "flexDirection": "row",
-      "flex": 1
+      "display": "grid",
+      "gridTemplateColumns": "50fr 12px 50fr",
+      "flex": 1,
+      "flexShrink": 0,
+      "minHeight": 0
     },
     "droppable": false,
     "layoutElementType": "LAYOUT",
-    "resizable": { "minPercent": 25, "maxPercent": 75 },
+    "resizable": { "minPercent": 20, "maxPercent": 80 },
     "items": [
       {
         "uuid": "schedule-pane",
