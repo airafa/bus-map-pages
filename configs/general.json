@@ -9,15 +9,16 @@
     "uuid": "bus-dashboard",
     "name": "layout",
     "style": {
-      "display": "grid",
-      "gridTemplateColumns": "50fr 12px 50fr",
+      "display": "flex",
       "flex": 1,
       "flexShrink": 0,
       "minHeight": 0
     },
     "droppable": false,
     "layoutElementType": "LAYOUT",
-    "resizable": { "minPercent": 20, "maxPercent": 80 },
+    "resizable": true,
+    "minSplit": 20,
+    "maxSplit": 80,
     "items": [
       {
         "uuid": "schedule-pane",
