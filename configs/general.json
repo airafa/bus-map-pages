@@ -25,8 +25,7 @@
         "name": "schedule",
         "style": {
           "display": "flex",
-          "flexDirection": "column",
-          "flex": "25 1 0%"
+          "flexDirection": "column"
         },
         "droppable": true,
         "onlyDropInside": true,
@@ -37,8 +36,7 @@
         "name": "route-map",
         "style": {
           "display": "flex",
-          "flexDirection": "column",
-          "flex": "75 1 0%"
+          "flexDirection": "column"
         },
         "droppable": true,
         "onlyDropInside": true,
